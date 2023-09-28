@@ -44,7 +44,7 @@ header .icons span {
     text-align: center;
     line-height: 38px;
     border-radius: 50%;
-    background-color: #67C2F4;
+    background-color: #0C81C0;
 }
 
 header .icons span:hover {
@@ -101,11 +101,10 @@ header .icons span :last-child {
 
 .days li.active {
     color: #ECF7FE;
-    ;
 }
 
 .days li.active::before {
-    background: #52BBF4;
+    background: #0C81C0;
 }
 
 .calender .weeks li {
