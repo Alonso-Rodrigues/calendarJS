@@ -20,7 +20,7 @@ body {
 }
 
 .wrapper {
-    height: 400px;
+    height: 450px;
     width: 650px;
     background-color: #C6E8FB;
     border-radius: 10px;
@@ -52,8 +52,12 @@ header .icons span:hover {
     cursor: pointer;
 }
 
-header .icons span :last-child {
+header .icons span:last-child {
     margin-right: -10px;
+}
+
+.calender {
+    padding: 20px;
 }
 
 .calender ul {
@@ -66,7 +70,11 @@ header .icons span :last-child {
 
 .calender ul li {
     position: relative;
-    width: calc(100%/7);
+    width: calc(100% / 7);
+}
+
+.calender .weeks li {
+    font-weight: 700;
 }
 
 .calender .days {
@@ -105,14 +113,4 @@ header .icons span :last-child {
 
 .days li.active::before {
     background: #0C81C0;
-}
-
-.calender .weeks li {
-    font-weight: 700;
-}
-
-.margin .days li {
-    margin-top: 50px;
-    cursor: pointer;
-    z-index: 1;
 }
